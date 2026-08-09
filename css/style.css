@@ -743,6 +743,8 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); line-height: 1.22; color:
   .hero-content { padding-top: 120px; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; }
+  .hero-actions { flex-direction: row; flex-wrap: nowrap; gap: 10px; margin-bottom: 48px; }
+  .hero-actions .btn { width: auto; flex: 1; padding-left: 8px; padding-right: 8px; font-size: 0.84rem; white-space: nowrap; }
   .section { padding: 72px 0; }
   .page-section { padding: 64px 0; }
   .about-image img { height: 340px; }
